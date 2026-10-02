@@ -8,10 +8,8 @@ blurb: "Posts on things I've worked through and wanted to explain properly."
 actions:
   - label: "All writing"
     href: "/blog"
-  - social: hashnode
-    href: "https://arnavverma.hashnode.dev"
   - social: medium
-    href: "https://medium.com/@namesarnav"
+    href: "https://medium.com/@prithuverma005"
 
 # How many rows show before the "View more" button appears.
 # Set to 0 to always show everything.
@@ -19,7 +17,67 @@ initial_count: 5
 
 items:
   # `slug` is only needed when the post has a body — a `details:` block below,
-  # or a file at content/blog/<slug>.md.
+  # or a file at content/blog/<slug>.md. Posts with a `url` open on Medium.
+  - slug: "bbd-and-tax-loopholes"
+    title: "BBD and Tax Loopholes"
+    description: >
+      How the ultra-wealthy use Buy, Borrow, Die to grow their fortunes while paying almost no tax: borrowing against appreciating assets instead of selling, then passing them on with a stepped-up basis.
+    date: "2026-09-26"
+    reading_time: "6 min read"
+    thumbnail: "/blog/bbd-and-tax-loopholes.jpg"
+    tags: ["Finance", "Billionaires", "Economics", "Wealth"]
+    url: "https://medium.com/@prithuverma005/bbd-and-tax-loopholes-d1a0b83eb85a"
+
+  - slug: "stock-market-crash"
+    title: "Stock Market Crash"
+    description: >
+      What actually causes a stock market crash, from recessions and inflation to bubbles and panic selling, and the indicators that tend to show up before one.
+    date: "2026-09-19"
+    reading_time: "4 min read"
+    thumbnail: "/blog/stock-market-crash.jpg"
+    tags: ["Recession", "Finance", "Stock Market Crash", "Stock Market", "Economics"]
+    url: "https://medium.com/@prithuverma005/stock-market-crash-d8e1e716b586"
+
+  - slug: "game-theory-backward-induction-and-the-endgame-problem"
+    title: "Game Theory: Backward Induction and the Endgame Problem"
+    description: >
+      Reasoning backwards from the last move, and why cooperation collapses all at once the moment players know exactly when a repeated game ends.
+    date: "2026-09-19"
+    reading_time: "2 min read"
+    thumbnail: "/blog/game-theory-backward-induction-and-the-endgame-problem.jpg"
+    tags: ["Strategy", "Game Theory", "Human Behavior"]
+    url: "https://medium.com/@prithuverma005/game-theory-backward-induction-and-the-endgame-problem-e48bc1157594"
+
+  - slug: "bonds-and-debentures"
+    title: "Bonds and Debentures"
+    description: >
+      How bonds and debentures work: face value, coupons, maturity, premiums and discounts, and how the two differ in security, risk and liquidity.
+    date: "2026-09-18"
+    reading_time: "5 min read"
+    thumbnail: "/blog/bonds-and-debentures.jpg"
+    tags: ["Finance", "Money", "Investing"]
+    url: "https://medium.com/@prithuverma005/bonds-and-debentures-93f8a35c6c3e"
+
+  - slug: "game-theory-tit-for-tat"
+    title: "Game Theory: Tit-for-tat"
+    description: >
+      Why repeating the Prisoner's Dilemma changes everything, and how a simple strategy, cooperating first and then copying your opponent, makes cooperation last.
+    date: "2026-09-08"
+    reading_time: "2 min read"
+    thumbnail: "/blog/game-theory-tit-for-tat.jpg"
+    tags: ["Strategic Thinking", "Cooperation", "Game Theory", "Human Behavior"]
+    url: "https://medium.com/@prithuverma005/game-theory-tit-for-tat-991b4ebafd51"
+
+  - slug: "freeports-and-wealth-tricks"
+    title: "Freeports and Wealth Tricks"
+    description: >
+      Tax-free warehouses in Geneva, Luxembourg and Singapore where art, gold and wine sit legally "in transit", and how billionaires use them for tax avoidance and secrecy.
+    date: "2026-09-08"
+    reading_time: "4 min read"
+    thumbnail: "/blog/freeports-and-wealth-tricks.jpg"
+    tags: ["Tax Avoidance", "Billionaires", "Strategy", "Wealth", "Money"]
+    url: "https://medium.com/@prithuverma005/freeports-and-wealth-tricks-e48758049377"
+
   - slug: "data-warehousing-study-guide"
     title: "Data Warehousing, from OLTP to the Modern Cloud Stack"
     description: >
@@ -40,66 +98,42 @@ items:
     reading_time: "11 min read"
     tags: ["PySpark", "Apache Spark", "Databricks", "Data Engineering"]
 
-  - slug: "adapting-llama-for-ner-tasks"
-    title: "Adapting LLaMA for NER Tasks"
+  - slug: "pe-and-pb-ratio"
+    title: "PE and PB Ratio"
     description: >
-      Customize your models using PEFT. Fine-tuning LLaMA 3.2 1B for token
-      classification with LoRA adapters and 4-bit quantization, on a single GPU.
-    date: "2025-09-24"            # quoted; free-form text also works
-    reading_time: "7 min read"    # optional
-    thumbnail: "/blog/adapting-llama-for-ner-tasks.webp"
-    tags: ["Large Language Models", "LLM Finetuning", "NLP", "AI", "Llama 3"]
-    # Where the post is also published. Renders a "Read post" button that opens
-    # in a new tab. Delete it if the post only lives on this site.
-    # url: "https://medium.com/@namesarnav/..."
+      Using price-to-earnings and price-to-book ratios to judge whether a stock is overvalued or undervalued, and what a low or high ratio can really mean.
+    date: "2026-08-24"
+    reading_time: "3 min read"
+    thumbnail: "/blog/pe-and-pb-ratio.jpg"
+    tags: ["Investing", "Finance", "Stocks", "Corporate Finance"]
+    url: "https://medium.com/@prithuverma005/pe-and-pb-ratio-9d0e7d4fda7e"
 
-  - slug: "lm-distill"
-    title: "Language Model Distillation"
+  - slug: "game-theory-nash-equilibrium"
+    title: "Game Theory: Nash Equilibrium"
     description: >
-      Training a small student model to behave like a large teacher: what the
-      soft probabilities actually carry, how to transfer attention patterns
-      when the two models are different sizes, and how to tell whether it
-      worked.
-    date: "2026-03-18"
-    reading_time: "13 min read"
-    thumbnail: "/blog/lm-distill.webp"
-    tags: ["Knowledge Distillation", "LLM", "Model Compression", "PyTorch"]
-    url: "https://arnavverma.hashnode.dev/model-distillation"
-    # `details` generates a page at /blog/<slug> and adds a "Read more" button,
-    # exactly like projects. Use it for posts you want hosted here.
-    
-  - slug: "sv-engine"
-    title: "Building a Semantic Video Search Engine"
-    description: >
-      Point it at a folder of videos, type "a red car driving at night", and get
-      back exact timestamps across every video you own — each one playable at the
-      moment it matched.
-    date: "2026-08-02"
-    reading_time: "31 min read"
-    thumbnail: "/blog/sv-engine.webp"
-    tags: ["CLIP", "FAISS", "Vector Search", "Python", "TypeScript"]
-    url: "https://arnavverma.hashnode.dev/building-a-semantic-video-search-engine"
+      The central idea of game theory: a state where no player can do better by changing only their own strategy, and why every finite game has one.
+    date: "2026-08-19"
+    reading_time: "2 min read"
+    thumbnail: "/blog/game-theory-nash-equilibrium.png"
+    tags: ["Game Theory", "Strategy", "Human Behavior", "Leadership"]
+    url: "https://medium.com/@prithuverma005/game-theory-nash-equilibrium-c2dfbfb6e16e"
 
-  - slug: "k8s-pods"
-    title: "Kubernetes Pods Explained"
+  - slug: "game-theory-prisoners-dilemma"
+    title: "Game Theory: Prisoner's Dilemma"
     description: >
-      What a Pod actually is, starting from the pause container nobody mentions:
-      the lifecycle and its phases, imperative versus declarative creation, the
-      manifest field by field, and the multi-container patterns worth knowing.
-    date: "2026-08-02"
-    reading_time: "26 min read"
-    thumbnail: "/blog/k8s-pods.webp"
-    tags: ["Kubernetes", "Containers", "DevOps", "Infrastructure"]
-    url: "https://arnavverma.hashnode.dev/kubernetes-pods"
+      The most famous scenario in game theory, and the gap it exposes between what is best for an individual and what is best for the group.
+    date: "2026-08-14"
+    reading_time: "3 min read"
+    thumbnail: "/blog/game-theory-prisoners-dilemma.jpg"
+    tags: ["Game Theory", "Cooperation", "Human Behavior", "Strategy"]
+    url: "https://medium.com/@prithuverma005/game-theory-prisoners-dilemma-74372b32ed0e"
 
-  # - slug: "Polish - AI Document Editor"
-  #   title: "Kubernetes Pods Explained"
-  #   description: >
-  #     Point it at a folder of videos, type "a red car driving at night", and get
-  #     back exact timestamps across every video you own — each one playable at the
-  #     moment it matched.
-  #   date: "2026-08-02"
-  #   reading_time: "24 min read"
-  #   thumbnail: "/blog/sv-engine.webp"
-  #   tags: ["CLIP", "Vector Search", "Python", "NLP"]
-  #   url: "https://arnavverma.hashnode.dev/kubernetes-pods"
+  - slug: "npv-and-irr"
+    title: "NPV and IRR"
+    description: >
+      Net Present Value and Internal Rate of Return, built on the time value of money: discounting future cash flows to decide whether an investment is worth it.
+    date: "2026-08-13"
+    reading_time: "3 min read"
+    thumbnail: "/blog/npv-and-irr.jpg"
+    tags: ["Money", "Corporate Finance", "Budgeting", "Finance"]
+    url: "https://medium.com/@prithuverma005/npv-and-irr-af9f2eb3df56"

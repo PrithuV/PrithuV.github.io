@@ -17,6 +17,7 @@ items:
     credential: "/certifications/aws-s3.pdf"
 
   - title: "Generative AI Mastermind"
+    thumbnail: "/logos/outskill.png"
     description: "Outskill"
     # date: "Issued <Mon YYYY>"
     credential: "/certifications/outskill-generative-ai.jpeg"
