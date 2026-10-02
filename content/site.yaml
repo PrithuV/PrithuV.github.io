@@ -1,12 +1,12 @@
 # Site-wide metadata and navigation.
 # Everything here feeds <head> and the sticky top bar.
 
-title: "Arnav Verma"
-description: "Portfolio of Arnav Verma — machine learning research and engineering."
+title: "Prithu Verma"
+description: "Portfolio of Prithu Verma — Data Engineering and Research"
 # The canonical origin. This is what absolute URLs in <head> are built from —
 # Open Graph images especially, since Slack and LinkedIn will not follow a
 # relative path. Get it wrong and every link preview breaks.
-url: "https://namesarnav.com"
+url: "https://prithuverma.com"
 
 # The image social platforms show when someone shares a link to the site.
 # Regenerate it with `npm run og` after changing your name, title, description
@@ -15,7 +15,7 @@ og_image: "/og.png"
 # og_image_alt: "Arnav Verma — AI Engineering & Research"
 
 # Shown in the top-left of the sticky header. Falls back to `title` if omitted.
-brand: "AV"
+brand: "PV"
 
 # The "back" link at the top of the Projects, Writing and Documents pages.
 back_label: "Home"
@@ -42,7 +42,7 @@ nav:
 # use, so nothing on the site links to it.
 
 # Optional. Shown centred at the very bottom of the page.
-footer: "Copyright...JK, use the code on my github"
+footer: "Built with <3 by Prithu Verma"
 
 # The 404 page. Delete any line to fall back to its default; delete the whole
 # block and the page still works. `links` defaults to the nav above.

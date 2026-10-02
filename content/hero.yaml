@@ -1,18 +1,20 @@
 # The opening screen: name and title.
 # `tagline`, `location` and `actions` are all optional — delete what you don't need.
 
-name: "Arnav Verma"
-title: "AI Engineering & Research"
+name: "Prithu Verma"
+title: "Data Engineering & Research"
 
 tagline: >
-  I work on language model safety and evaluations, representation learning and the systems that make it practical.
-  Currently a Masters student at NYU Courant.
-  Currently working on efficient training and evaluation of multimodal models.
+ Computer Science graduate student with experience in Python, SQL, 
+ machine learning, and data engineering, building end-to-end ETL pipelines,
+ relational databases, analytical dashboards, and ML systems. Experienced in working with
+ large-scale datasets, statistical analysis, feature engineering, and unsupervised learning, 
+ with a focus on turning complex data into measurable insights.
 
-location: "📍 New York, NY"
+location: "📍 New Delhi, India"
 
 # A file in public/ or a full URL. Delete the line and the hero goes text-only.
-photo: "/sexy-arnav.jpeg"
+photo: "/prithu.png"
 # Optional. Defaults to `name`, which is what you want for a portrait.
 # photo_alt: "Arnav Verma"
 
@@ -20,10 +22,10 @@ photo: "/sexy-arnav.jpeg"
 # beneath it. `href` makes the whole badge a link to the credential itself.
 # Keep `label` short — it sits under the art, in a column as wide as the photo.
 # Delete the whole `badges:` block and none render.
-badges:
-  - image: "/logos/ckad.png"
-    label: "Certified Kubernetes Application Developer"
-    href: "https://www.credly.com/badges/f5646465-5d5c-4567-bf56-23a64b9b6e54/public_url"
+# badges:
+#   - image: "/logos/ckad.png"
+#     label: "Certified Kubernetes Application Developer"
+#     href: "https://www.credly.com/badges/f5646465-5d5c-4567-bf56-23a64b9b6e54/public_url"
 
 # Optional butto  ns under the tagline. Delete the whole `actions:` block to hide them.
 actions:
