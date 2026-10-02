@@ -1,0 +1,45 @@
+# Every document worth handing someone: résumé, transcripts, certificate copies.
+# Each entry points at a file in public/ (or a full URL). The build fails if the
+# file is missing, so a dead link never ships.
+#
+# `group` is free text — documents are filed under it in the order the groups
+# first appear here. Drop the field and the entry sits under no heading.
+
+heading: "Documents"
+
+blurb: "Résumé, transcripts and credential copies, in one place."
+
+items:
+  - title: "Résumé"
+    group: "Résumé"
+    description: >
+      Current one-page résumé. The same file the "View Resume" button on the
+      homepage opens.
+    file: "/documents/resume.pdf"
+    kind: "PDF"
+    date: "2026-09-23"
+
+  # Transcripts. Add the file to public/documents/ first — the build checks it.
+  # - title: "University of North Texas — Official Transcript"
+  #   group: "Transcripts"
+  #   description: "B.S. Computer Science, Mathematics minor. GPA 3.70."
+  #   file: "/documents/unt-transcript.pdf"
+  #   kind: "PDF"
+
+  - title: "Certified Kubernetes Application Developer"
+    group: "Certificates"
+    description: >
+      CNCF certificate copy. Credential LF-5ridapwt2z.
+    file: "/certifications/ckad-certificate.png"
+    thumbnail: "/certifications/ckad-certificate.png"
+    kind: "PNG"
+    date: "2026-09-02"
+
+  - title: "Anthropic — Introduction to Agent Skills"
+    group: "Certificates"
+    description: >
+      Course completion certificate.
+    file: "/certifications/claude-1.png"
+    thumbnail: "/certifications/claude-1.png"
+    kind: "PNG"
+    date: "2026-06-06"

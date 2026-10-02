@@ -1,0 +1,77 @@
+# Site-wide metadata and navigation.
+# Everything here feeds <head> and the sticky top bar.
+
+title: "Arnav Verma"
+description: "Portfolio of Arnav Verma — machine learning research and engineering."
+# The canonical origin. This is what absolute URLs in <head> are built from —
+# Open Graph images especially, since Slack and LinkedIn will not follow a
+# relative path. Get it wrong and every link preview breaks.
+url: "https://namesarnav.com"
+
+# The image social platforms show when someone shares a link to the site.
+# Regenerate it with `npm run og` after changing your name, title, description
+# or hero photo — it is rendered from exactly those fields.
+og_image: "/og.png"
+# og_image_alt: "Arnav Verma — AI Engineering & Research"
+
+# Shown in the top-left of the sticky header. Falls back to `title` if omitted.
+brand: "AV"
+
+# The "back" link at the top of the Projects, Writing and Documents pages.
+back_label: "Home"
+
+# Top bar links. Remove any entry to drop it from the nav.
+# Anything with a page of its own points at the page; the rest are sections on
+# the homepage, written as "/#id" so they also work from /projects or /blog.
+nav:
+  - label: "Education"
+    href: "/#education"
+  - label: "Research"
+    href: "/#research"
+  - label: "Projects"
+    href: "/projects"
+  - label: "Writing"
+    href: "/blog"
+  - label: "Skills"
+    href: "/#skills"
+  - label: "Certifications"
+    href: "/#certifications"
+  - label: "Contact"
+    href: "/#contact"
+# /documents is deliberately not listed here — it exists, but it is for personal
+# use, so nothing on the site links to it.
+
+# Optional. Shown centred at the very bottom of the page.
+footer: "Copyright...JK, use the code on my github"
+
+# The 404 page. Delete any line to fall back to its default; delete the whole
+# block and the page still works. `links` defaults to the nav above.
+not_found:
+  code: "404"
+  heading: "This page wandered off"
+  message: >
+    The link is broken, or the page moved. Nothing here is lost — the rest of
+    the site is one click away.
+  home_label: "Back to the homepage"
+
+# The "click here to vibe" button in the top bar. Delete this block (or just the
+# `src:` line) and the button disappears.
+#
+# Point `src` at an audio file in `public/` — mp3, m4a, ogg and wav all work —
+# or at a full URL. The bundled track is a placeholder loop; swap in your own.
+vibe:
+  label: "Click here to vibe"
+  playing_label: "Vibing"
+  # The small line above the track name in the corner popup.
+  now_playing_label: "Now playing"
+  loop: true       # start over at the top when the last track ends
+  shuffle: false   # play in a random order each time
+  volume: 0.7
+
+  # Leave `tracks` out and every audio file in public/audio/ is used, in name
+  # order — just drop files in. List them here to fix the order, or to give a
+  # track a name other than its filename:
+  #
+  # tracks:
+  #   - "/audio/first.mp3"
+  #   - { src: "/audio/second.mp3", title: "A Nicer Name" }

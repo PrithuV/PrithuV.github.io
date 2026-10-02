@@ -1,0 +1,85 @@
+heading: "Writing"
+
+blurb: "Posts on things I've worked through and wanted to explain properly."
+
+# Buttons at the foot of the section. Naming a `social` borrows that platform's
+# icon and gives you "View <Name>" for free; add `label:` to say something else.
+# Delete the block and no buttons render.
+actions:
+  - label: "All writing"
+    href: "/blog"
+  - social: hashnode
+    href: "https://arnavverma.hashnode.dev"
+  - social: medium
+    href: "https://medium.com/@namesarnav"
+
+# How many rows show before the "View more" button appears.
+# Set to 0 to always show everything.
+initial_count: 5
+
+items:
+  # `slug` is only needed when the post has a body — a `details:` block below,
+  # or a file at content/blog/<slug>.md.
+  - slug: "adapting-llama-for-ner-tasks"
+    title: "Adapting LLaMA for NER Tasks"
+    description: >
+      Customize your models using PEFT. Fine-tuning LLaMA 3.2 1B for token
+      classification with LoRA adapters and 4-bit quantization, on a single GPU.
+    date: "2025-09-24"            # quoted; free-form text also works
+    reading_time: "7 min read"    # optional
+    thumbnail: "/blog/adapting-llama-for-ner-tasks.webp"
+    tags: ["Large Language Models", "LLM Finetuning", "NLP", "AI", "Llama 3"]
+    # Where the post is also published. Renders a "Read post" button that opens
+    # in a new tab. Delete it if the post only lives on this site.
+    # url: "https://medium.com/@namesarnav/..."
+
+  - slug: "lm-distill"
+    title: "Language Model Distillation"
+    description: >
+      Training a small student model to behave like a large teacher: what the
+      soft probabilities actually carry, how to transfer attention patterns
+      when the two models are different sizes, and how to tell whether it
+      worked.
+    date: "2026-03-18"
+    reading_time: "13 min read"
+    thumbnail: "/blog/lm-distill.webp"
+    tags: ["Knowledge Distillation", "LLM", "Model Compression", "PyTorch"]
+    url: "https://arnavverma.hashnode.dev/model-distillation"
+    # `details` generates a page at /blog/<slug> and adds a "Read more" button,
+    # exactly like projects. Use it for posts you want hosted here.
+    
+  - slug: "sv-engine"
+    title: "Building a Semantic Video Search Engine"
+    description: >
+      Point it at a folder of videos, type "a red car driving at night", and get
+      back exact timestamps across every video you own — each one playable at the
+      moment it matched.
+    date: "2026-08-02"
+    reading_time: "31 min read"
+    thumbnail: "/blog/sv-engine.webp"
+    tags: ["CLIP", "FAISS", "Vector Search", "Python", "TypeScript"]
+    url: "https://arnavverma.hashnode.dev/building-a-semantic-video-search-engine"
+
+  - slug: "k8s-pods"
+    title: "Kubernetes Pods Explained"
+    description: >
+      What a Pod actually is, starting from the pause container nobody mentions:
+      the lifecycle and its phases, imperative versus declarative creation, the
+      manifest field by field, and the multi-container patterns worth knowing.
+    date: "2026-08-02"
+    reading_time: "26 min read"
+    thumbnail: "/blog/k8s-pods.webp"
+    tags: ["Kubernetes", "Containers", "DevOps", "Infrastructure"]
+    url: "https://arnavverma.hashnode.dev/kubernetes-pods"
+
+  # - slug: "Polish - AI Document Editor"
+  #   title: "Kubernetes Pods Explained"
+  #   description: >
+  #     Point it at a folder of videos, type "a red car driving at night", and get
+  #     back exact timestamps across every video you own — each one playable at the
+  #     moment it matched.
+  #   date: "2026-08-02"
+  #   reading_time: "24 min read"
+  #   thumbnail: "/blog/sv-engine.webp"
+  #   tags: ["CLIP", "Vector Search", "Python", "NLP"]
+  #   url: "https://arnavverma.hashnode.dev/kubernetes-pods"

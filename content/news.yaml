@@ -1,0 +1,26 @@
+# The "what's new" line on the hero.
+#
+# Newest first. One item shows at a time and they fade through in order; with a
+# single item nothing rotates at all. Delete `items` — or the whole file's
+# contents down to `items: []` — and the line disappears from the page.
+
+# The small word in front of the line. Try "Latest", "News", "Now".
+label: "Latest"
+
+# Seconds each item stays up before the next one fades in. Ignored when there
+# is only one item.
+interval: 3
+
+items:
+  - text: "Passed the CKAD exam — Certified Kubernetes Application Developer"
+    # Optional. Makes the line a link.
+    href: "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/155486a0-ede3-43a7-a73f-7ad3d556fb2d-arnav-verma-642a8c8e-a9a5-49ab-a8d7-9cc1086df300-certificate.pdf"
+
+  - text: "Paper accepted to Findings of AACL-IJCNLP 2026"
+    href: "#research"
+
+  - text: "Started the M.S. in Computer Science at NYU Courant"
+    href: "#education"
+
+  - text: "Check Out Marigold - An App to help you study"
+    href: "#projects"

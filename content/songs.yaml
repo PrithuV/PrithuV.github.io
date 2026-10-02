@@ -1,0 +1,18 @@
+# The playlist behind the "click here to vibe" button in the header.
+#
+# Drop the audio file into public/audio/, then add it here. Tracks play top to
+# bottom. Any format a browser understands works — mp3, m4a, ogg, wav.
+#
+# - `file` is the filename exactly as it sits in public/audio/, extension and
+#   all. Naming a file that is not there fails the build, so a typo never ships
+#   as a silent gap in the playlist.
+# - `title` and `artist` are what the header and the "now playing" popup show.
+#   Leave either out and it is read from the filename instead, which is parsed
+#   as "Song Name, Artist.mp3".
+# - A file in the folder with no entry here still plays. It goes after
+#   everything listed, named from its filename.
+
+tracks:
+  - file: "Droopy Likes Richochet, C418.mp3"
+    title: "Droopy Likes Ricochet"
+    artist: "C418"

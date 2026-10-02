@@ -1,0 +1,32 @@
+heading: "Certifications"
+
+blurb: "Courses and credentials I've completed."
+
+# Every field except `title` is optional — delete a line and that part of the
+# row disappears. `thumbnail` points at a badge or certificate image in public/;
+# it is letterboxed, not cropped, so square badges and landscape certificates
+# both come out whole. Put the issuer in `description`.
+#
+# The whole section hides itself while `items` is empty.
+items:
+  - title:  "CNCF - Certified Kubernetes Application Developer"
+    thumbnail: "/logos/ckad.png"
+    description: >
+      Cloud Native Computing Foundation's Certified Kubernetes Application Developer. 
+    date: "2026-09-02"          # or free text: "Issued Mar 2026"
+    credential_id: "LF-5ridapwt2z"
+    credential: "https://www.credly.com/badges/f5646465-5d5c-4567-bf56-23a64b9b6e54/public_url"
+
+  - title:  "Anthropic -  Introduction to agent skills"
+    thumbnail: "/logos/anthropic.png"
+    description: >
+      Anthropic's Introduction to AI Agents Course
+    date: "2026-06-06"          # or free text: "Issued Mar 2026"
+    # credential_id: "LF-5ridapwt2z"
+    credential: "https://verify.skilljar.com/c/82etxsa6jwbk"
+  
+  - title:  "Meta -  Introduction to Backend Development"
+    thumbnail: "/logos/meta.png"
+    description: >
+      Meta's Backend Development Course
+

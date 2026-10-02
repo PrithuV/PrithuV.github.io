@@ -1,0 +1,26 @@
+heading: "Contact"
+
+blurb: "Happy to talk about research, collaborations, or interesting problems."
+
+# Buttons at the foot of the section. A `social` borrows that platform's icon
+# and label; `label` on its own makes a plain button.
+actions:
+  - label: "View Resume"
+    href: "/documents/resume.pdf"
+
+email: "av4445@nyu.edu"
+phone: "+1 (551) 359-3439"
+
+# Every social below is optional. Delete a line — or leave it blank — and its
+# button disappears from the page. No placeholder is ever rendered.
+socials:
+  github: "https://github.com/namesarnav"
+  linkedin: "https://linkedin.com/in/namesarnav"
+  huggingface: "https://huggingface.co/namesarnav"
+  hashnode: "https://hashnode.dev/@namesarnav"
+  medium: "https://medium.com/@namesarnav"
+  # youtube: "https://youtube.com/@namesarnav"
+  # google_scholar: "https://scholar.google.com/citations?user=SCkOVRYAAAAJ&hl=en"
+  # open_review: "https://openreview.net/profile?id=%7EArnav_Verma1"
+  # instagram: "https://instagram.com/namesarnav"
+  # spotify: "https://open.spotify.com/user/dn7tsmubqzj07l40oqnznnv42?si=f65753c028544f4c"
