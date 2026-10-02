@@ -20,6 +20,26 @@ initial_count: 5
 items:
   # `slug` is only needed when the post has a body — a `details:` block below,
   # or a file at content/blog/<slug>.md.
+  - slug: "data-warehousing-study-guide"
+    title: "Data Warehousing, from OLTP to the Modern Cloud Stack"
+    description: >
+      A study guide built in three days with Claude, NotebookLM, ChatGPT and
+      Perplexity: OLTP vs OLAP, star and snowflake schemas, fact and dimension
+      types, grain, surrogate keys, SCDs, data marts, and why ELT won.
+    date: "2026-09-01"
+    reading_time: "16 min read"
+    tags: ["Data Warehousing", "ETL", "OLAP", "SQL", "Data Engineering"]
+
+  - slug: "pyspark-for-data-engineers"
+    title: "PySpark for Data Engineers: The Docs, Distilled"
+    description: >
+      I read the entire PySpark documentation so you don't have to. The parts
+      that matter for data engineering: DataFrames, types, cleaning,
+      transformations, joins, file formats and ANSI mode.
+    date: "2026-08-30"
+    reading_time: "11 min read"
+    tags: ["PySpark", "Apache Spark", "Databricks", "Data Engineering"]
+
   - slug: "adapting-llama-for-ner-tasks"
     title: "Adapting LLaMA for NER Tasks"
     description: >

@@ -25,178 +25,45 @@ initial_count: 5
 
 items:
   # `slug` is the URL for the detail page: /projects/<slug>. Keep it unique.
-  - slug: "marigold"
-    title: "Marigold - Turn Lecture Notes to Timed Quizzes and Flashcards"
+  - slug: "databricks-company-analysis"
+    title: "Company Data Analysis on Databricks"
     description: >
-      Upload a PDF of your notes, get flashcards generated from it, study them, then
-      take a timed quiz on the same material and see exactly what you missed.
-      Re-reading feels like studying; being asked and getting it wrong is what sticks.
-    thumbnail: "/projects/marigold.png"     # optional; a neutral panel shows if omitted
-    tags: ["React", "FastAPI", "SQLite", "Gemini"]
+      Nearly 12 million company records from People Data Labs, processed with
+      PySpark and Spark SQL on Databricks and presented in a Databricks dashboard:
+      11.7M companies across 149 industries, broken down by country and size.
+    tags: ["PySpark", "Spark SQL", "Databricks", "Pandas"]
     links:
-      code: "https://github.com/namesarnav/marigold"
-      demo: "https://marigold-web-production.up.railway.app/"
-
+      code: "https://lnkd.in/getxtPNN"
 
 ## ------------------------------------------------------------------------------------------- ##
-  # `slug` is the URL for the detail page: /projects/<slug>. Keep it unique.
-  - slug: "mcop"
-    title: "Monte Carlo Options Pricer"
+  - slug: "health-insurance-claims"
+    title: "Health Insurance Claim Analysis"
     description: >
-      A Monte Carlo engine for pricing European and American options. With variance reduction,
-      Greeks, and alternative asset dynamics and a backtest that puts its deltas to work
-      hedging a real position on ten years of S&P 500 data.
-    thumbnail: "/projects/monte-carlo.png"     # optional; a neutral panel shows if omitted
-    tags: ["Hedge Funds", "Trading", "Quantitative Research"]
+      750,000+ synthetic healthcare records generated with Faker, pushed through an
+      ETL pipeline into 6 normalized MySQL tables, then queried for trends in claim
+      costs, approval rates, providers and patient utilization.
+    tags: ["Python", "SQL", "SQLAlchemy", "ETL Pipeline"]
     links:
-      code: "https://github.com/namesarnav/mcop"
-      # demo: "https://namesarnav.com/demo"
+      code: "https://lnkd.in/g8G96vX7"
 
 ## ------------------------------------------------------------------------------------------- ##
-  # `slug` is the URL for the detail page: /projects/<slug>. Keep it unique.
-  - slug: "backtest"
-    title: "Vectorized Portfolio Backtesting Engine"
+  - slug: "stock-portfolio"
+    title: "Stock Portfolio Analytics"
     description: >
-      A daily-frequency engine for multi-asset equity strategies, built around the
-      things that actually decide whether a backtest means anything: vectorised
-      computation, explicit look-ahead handling, real transaction costs and honest
-      out-of-sample validation. The headline result is negative, which is the point.
-    thumbnail: "/projects/backtest.png"     # optional; a neutral panel shows if omitted
-    tags: ["Quantitative Research", "Quantitative Trading", "Python"]
+      A 6-table PostgreSQL schema fed by a yfinance ETL pipeline, with 15+ advanced SQL
+      queries computing returns, volatility, Sharpe ratio and position-level P&L,
+      surfaced through an interactive Streamlit dashboard.
+    tags: ["Python", "PostgreSQL", "ETL Pipeline", "Streamlit", "yfinance"]
     links:
-      code: "https://github.com/namesarnav/backtesting-python"
-      # demo: "https://namesarnav.com/demo"
-
-
-
+      code: "https://lnkd.in/gH8UkEGz"
 
 ## ------------------------------------------------------------------------------------------- ##
-  # `slug` is the URL for the detail page: /projects/<slug>. Keep it unique.
-  - slug: "trt-ship"
-    title: "TRT Ship"
+  - slug: "business-analysis-dashboards"
+    title: "Business Analysis Dashboards"
     description: >
-      A CLI and Python toolkit that takes a trained Pytorch model through ONNX export, TensorRT engine builds 
-      and INT8 calibration, numerical validation and benchmarking, to a Triton model repository
-
-
-    thumbnail: "/projects/trt-ship.png"     # optional; a neutral panel shows if omitted
-    tags: ["PyTorch", "TensorRT", "CUDA"]
-    links:
-      code: "https://github.com/namesarnav/mcop"
-      # demo: "https://namesarnav.com/demo"
-
-
-  - slug: "synapse"
-    title: "Synapse -  A workflow Automation Engine"
-    description: >
-      Building Synapse: a workflow engine that survives crashes
-        You draw a workflow as a graph in the browser, hit publish, and a fleet of workers runs it reliably. If a worker dies halfway through, the work still gets done.
-
-
-    thumbnail: "/projects/synapse.png"     # optional; a neutral panel shows if omitted
-    tags: ["PyTorch", "TensorRT", "CUDA"]
-    links:
-      code: "https://github.com/namesarnav/mcop"
-      demo: "https://web-production-002c6.up.railway.app/"
-
-
-## ------------------------------------------------------------------------------------------- ##
-  # `slug` is the URL for the detail page: /projects/<slug>. Keep it unique.
-  - slug: "sv-engine"
-    title: "Semantic Video Search Engine"
-    description: >
-      Point it at a folder of videos and type "a red car driving at night". It returns
-      the exact timestamps, ranked across every video you own, each one playable at the
-      moment it matched — searching the picture itself, not filenames or transcripts.
-    thumbnail: "/projects/sv-engine.png"     # optional; a neutral panel shows if omitted
-    tags: ["PyTorch", "CLIP", "CUDA"]
-    links:
-      code: "https://github.com/namesarnav/semantic-video-search-engine"
-      demo: "https://www.loom.com/share/adc1e9a402644b0f9ffeb3c7754e141a"
-
-
-
-
-
-
-# ## ------------------------------------------------------------------------------------------- ##
-#   # `slug` is the URL for the detail page: /projects/<slug>. Keep it unique.
-  # - slug: "trtship"
-  #   title: "trt-ship — a Python Package for TensorRT Deployment"
-  #   description: >
-  #     Take a trained PyTorch model to a benchmarked, calibrated, Triton-servable TensorRT deployment — in one reproducible, debuggable pipeline.
-  #   thumbnail: "/projects/trt.webp"     # optional; a neutral panel shows if omitted
-  #   tags: ["Python", "TensorRT", "ONNX", "Triton", "CUDA"]
-  #   links:
-  #     code: "https://github.com/namesarnav/trt-ship"
-
-
-# ## ------------------------------------------------------------------------------------------- ##
-#   # `slug` is the URL for the detail page: /projects/<slug>. Keep it unique.
-  - slug: "polish"
-    title: "Polish — a Cursor-like AI Document Editor"
-    description: >
-      Upload a document in any format, edit it inline with an AI assistant that sees
-      the surrounding text, and export back out to PDF, DOCX or LaTeX. Version history
-      means an aggressive rewrite is never a one-way door.
-    thumbnail: "/projects/polish.png"     # optional; a neutral panel shows if omitted
-    tags: ["Next.js", "TypeScript", "Express", "PostgreSQL", "Gemini"]
-    links:
-      code: "https://github.com/PolishAI-app/polish"
-      demo: "https://polish-client-production.up.railway.app/"
-
-
-# ## ------------------------------------------------------------------------------------------- ##
-
-    
-
-# ## ------------------------------------------------------------------------------------------- ##
-
-  - slug: "folio"
-    title: "Folio - Learning Tracker for Students with ADHD"
-    description: >
-      If you're like me who's got ADHD and struggle a lot managing multiple resources to study. I built
-      this for you, all of your study material at one place. Youtube, Books, PDFs, No juggling around. 
-    thumbnail: "/projects/folio.webp"     # optional; a neutral panel shows if omitted
-    tags: ["React", "FastAPI", "MongoDB", "Docker", "Cloudflare R2"]
-    links:
-      code: "https://github.com/namesarnav/folio"
-
-
-
-# ## ------------------------------------------------------------------------------------------- ##
-
-#   - slug: "ledger"
-#     title: "Ledger — a Query Planner for Small Analytical Workloads"
-#     description: >
-#       A single-binary columnar query engine with a cost-based planner, written to
-#       understand what actually makes analytical queries fast at gigabyte scale.
-#     thumbnail: "/projects/placeholder.svg"
-#     tags: ["Rust", "Databases", "Query Planning"]
-#     links:
-#       code: "https://github.com/yourhandle/ledger"
-#     details:
-#       - heading: "Why"
-#         body: >
-#           Most analytical workloads never leave one machine. Ledger asks how far a
-#           careful planner and a tight vectorised executor can go before you need a
-#           cluster at all.
-#       - heading: "Design"
-#         body: >
-#           Arrow-backed columnar storage, a Volcano-style planner with histogram
-#           statistics, and morsel-driven parallelism across cores.
-
-# ## ------------------------------------------------------------------------------------------- ##
-
-#   - slug: "paper-radar"
-#     title: "Paper Radar"
-#     description: >
-#       A weekly digest that ranks new arXiv preprints against the papers already
-#       in my library.
-#     thumbnail: "/projects/placeholder.svg"
-#     tags: ["Python", "Recommenders"]
-#     links:
-#       code: "https://github.com/yourhandle/paper-radar"
-#       demo: "https://paper-radar.example.com"
-# ## ------------------------------------------------------------------------------------------- ##
-
+      Three end-to-end Power BI dashboards across banking, toy retail and superstore
+      data: 30+ interactive visuals, reusable DAX measures, and drill-throughs that
+      take you from headline KPIs to the detail behind them.
+    tags: ["Power BI", "DAX", "Power Query"]
+    # links:
+    #   code: "https://github.com/PrithuVerma/<repo>"

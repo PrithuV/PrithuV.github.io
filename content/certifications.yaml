@@ -9,24 +9,61 @@ blurb: "Courses and credentials I've completed."
 #
 # The whole section hides itself while `items` is empty.
 items:
-  - title:  "CNCF - Certified Kubernetes Application Developer"
-    thumbnail: "/logos/ckad.png"
-    description: >
-      Cloud Native Computing Foundation's Certified Kubernetes Application Developer. 
-    date: "2026-09-02"          # or free text: "Issued Mar 2026"
-    credential_id: "LF-5ridapwt2z"
-    credential: "https://www.credly.com/badges/f5646465-5d5c-4567-bf56-23a64b9b6e54/public_url"
+  - title: "Amazon Simple Storage Service (Amazon S3)"
+    thumbnail: "/logos/kodekloud.jpeg"
+    description: "KodeKloud"
+    date: "Issued May 2026"
+    credential_id: "d668a328-1468-4f7c-a535-4cefcadd89bb"
+    credential: "/certifications/aws-s3.pdf"
 
-  - title:  "Anthropic -  Introduction to agent skills"
-    thumbnail: "/logos/anthropic.png"
-    description: >
-      Anthropic's Introduction to AI Agents Course
-    date: "2026-06-06"          # or free text: "Issued Mar 2026"
-    # credential_id: "LF-5ridapwt2z"
-    credential: "https://verify.skilljar.com/c/82etxsa6jwbk"
-  
-  - title:  "Meta -  Introduction to Backend Development"
-    thumbnail: "/logos/meta.png"
-    description: >
-      Meta's Backend Development Course
+  - title: "Generative AI Mastermind"
+    description: "Outskill"
+    # date: "Issued <Mon YYYY>"
+    credential: "/certifications/outskill-generative-ai.jpeg"
 
+  - title: "Complete Data Analyst Bootcamp from Beginner to Advanced"
+    thumbnail: "/logos/udemy.jpeg"
+    description: "Udemy"
+    date: "Issued Aug 2025"
+    credential_id: "UC-19bfb0bb-88ed-4ecc-a44f-66d040c49863"
+    credential: "https://www.udemy.com/certificate/UC-19bfb0bb-88ed-4ecc-a44f-66d040c49863/"
+
+  - title: "Deloitte Australia - Data Analytics Job Simulation"
+    thumbnail: "/logos/forage.jpeg"
+    description: "Forage"
+    date: "Issued Feb 2025"
+    credential_id: "JcDrXDZPL3dfNo5Fb"
+    credential: "/certifications/deloitte-data-analytics.pdf"
+
+  - title: "Introduction to Programming Using Python"
+    thumbnail: "/logos/hackerrank.jpeg"
+    description: "HackerRank"
+    date: "Issued Sep 2024"
+
+  - title: "Python Masterclass"
+    thumbnail: "/logos/udemy.jpeg"
+    description: "Udemy"
+    date: "Issued Aug 2024"
+    credential_id: "UC-70736e0c-798a-48e8-945e-540b30919cb9"
+    credential: "https://www.udemy.com/certificate/UC-70736e0c-798a-48e8-945e-540b30919cb9/"
+
+  - title: "Desktop and Mobile UX/UI Design"
+    thumbnail: "/logos/udemy.jpeg"
+    description: "Udemy"
+    date: "Issued Aug 2024"
+    credential_id: "UC-20c5f704-946c-4db4-92d0-5ab05387d81a"
+    credential: "https://www.udemy.com/certificate/UC-20c5f704-946c-4db4-92d0-5ab05387d81a/"
+
+  - title: "Basics of Financial Planning"
+    thumbnail: "/logos/indmoney.jpeg"
+    description: "INDmoney"
+    date: "Issued Jul 2023"
+    credential_id: "7661777_69"
+    # credential: "<INDmoney certificate URL>"
+
+  - title: "Fundamental Analysis: Understanding Financial Statements"
+    thumbnail: "/logos/udemy.jpeg"
+    description: "Udemy"
+    date: "Issued Jun 2023"
+    credential_id: "UC-dbfaf132-8fc6-4a0a-a3f2-77d50f3d024e"
+    credential: "https://www.udemy.com/certificate/UC-dbfaf132-8fc6-4a0a-a3f2-77d50f3d024e/"

@@ -1,55 +1,24 @@
 heading: "Education"
 
 items:
-  - institution: "New York University, Courant Institute of Mathematical Sciences"
+  - institution: "SRM Institute of Technology"
     # The school's mark, from public/. Drop the line and the entry falls back to
     # a monogram in the colour below.
-    logo: "/logos/nyu.png"
+    logo: "/logos/srm-logo.png"
     # The school's own colour, hex only. In dark mode it is lightened
     # automatically so it stays legible; set `color_dark` to override that.
-    color: "#57068C"        # NYU violet
+    color: "#034DA1"        # NYU violet
     # Overrides the auto-lightened dark-mode colour.
     color_dark: "#fff"
     # Free text, so "Expected 05/28" and "01/23 – 05/26" both work.
-    dates: "Expected 05/28"
-    degree: "M.S. Computer Science"
+    dates: "Expected July 2027"
+    degree: "B.Tech Computer Science and Engineering"
     # `degree` and `field` are joined with a middot when both are present.
-    location: "Washington Square Campus, New York, NY "
+    location: "Delhi NCR, India"
     affiliations:
-      - "Tech@NYU"
-      - "HackNYU"
-      - "IEEE Computer Society"
-
-    coursework:
-      - { name: "Fundamental Algorithms - Yap Chee", grade: "In progress" }
-      - { name: "Machine Learning - Kyunghyun Cho", grade: "In progress" }
-      - { name: "Deep Learning - Yann LeCunn", grade: "In progress" }
-
-  - institution: "University of North Texas"
-    logo: "/logos/unt-eagles.png"
-    color: "#00853E"        # UNT green
-    color_dark: "#fff"
-    dates: "01/23 – 05/26"
-    degree: "B.S. Computer Science"
-    field: "Mathematics Minor"
-    location: "Dallas-Fort Worth, TX"
-    grade: "GPA 3.70"
-    # A file in public/ or a full URL. Delete the line to drop the button.
-    transcript: "/documents/unt-transcript.pdf"
-
-    affiliations:
-      - "Responsible AI Lab"
-      - "UNT Computer Science Club"
-      - "UNT AI Research Program"
-      - "IEEE Computer Society"
-
-    awards:
-      - "President's List"
-      - "Dean's List"
-      - "Undergraduate Research Fellowship"
-      - "International Education Scholarship"
-      - "1st Place — HackSMU '24 & '25, HackUNT '23 & '24"
-      - "2nd Place — HackUTD '24 · Runner-up — HackTX (UT Austin)"
+      - "IEEE Computer Society" 
+      - "SRM-ACM"
+      - " TedxSRM"
 
     coursework:
       - { name: "Algorithms", grade: "A+" }
@@ -62,3 +31,41 @@ items:
       - { name: "Computer Networks", grade: "A" }
       - { name: "Discrete Mathematics", grade: "A" }
       - { name: "Probability & Statistics", grade: "A" }
+
+  # - institution: "University of North Texas"
+  #   logo: "/logos/unt-eagles.png"
+  #   color: "#00853E"        # UNT green
+  #   color_dark: "#fff"
+  #   dates: "01/23 – 05/26"
+  #   degree: "B.S. Computer Science"
+  #   field: "Mathematics Minor"
+  #   location: "Dallas-Fort Worth, TX"
+  #   grade: "GPA 3.70"
+  #   # A file in public/ or a full URL. Delete the line to drop the button.
+  #   transcript: "/documents/unt-transcript.pdf"
+
+  #   affiliations:
+  #     - "Responsible AI Lab"
+  #     - "UNT Computer Science Club"
+  #     - "UNT AI Research Program"
+  #     - "IEEE Computer Society"
+
+  #   awards:
+  #     - "President's List"
+  #     - "Dean's List"
+  #     - "Undergraduate Research Fellowship"
+  #     - "International Education Scholarship"
+  #     - "1st Place — HackSMU '24 & '25, HackUNT '23 & '24"
+  #     - "2nd Place — HackUTD '24 · Runner-up — HackTX (UT Austin)"
+
+  #   coursework:
+  #     - { name: "Algorithms", grade: "A+" }
+  #     - { name: "Artificial Intelligence", grade: "A+" }
+  #     - { name: "Natural Language Processing", grade: "A+" }
+  #     - { name: "Linear Algebra", grade: "A+" }
+  #     - { name: "Data Structures", grade: "A" }
+  #     - { name: "Operating Systems", grade: "A" }
+  #     - { name: "Database Systems", grade: "A" }
+  #     - { name: "Computer Networks", grade: "A" }
+  #     - { name: "Discrete Mathematics", grade: "A" }
+  #     - { name: "Probability & Statistics", grade: "A" }

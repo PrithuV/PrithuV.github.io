@@ -7,13 +7,13 @@ blurb: "Papers and preprints. Currently submitted, under review or published"
 # Delete the block and no buttons render.
 actions:
   - social: huggingface
-    href: "https://huggingface.co/namesarnav"
+    href: "https://huggingface.co/"
   - social: google_scholar
-    href: "https://scholar.google.com/citations?user=SCkOVRYAAAAJ&hl=en"
+    href: "https://scholar.google.com/"
 
 # Bolded wherever it appears in an author list. It has to match an entry in
 # `authors` exactly, so it follows the same "Surname, Initial." style.
-highlight_author: "Verma, A."
+highlight_author: "Verma, P."
 
 items:
   # `status` carries the whole truth about where a paper stands. Naming the
@@ -24,27 +24,23 @@ items:
   # `links` is left out entirely for now — a button appears only for a link
   # that is actually filled in, so there are no dead buttons.
   - title: >
-      Evaluating Multi-Dimensional Generalization of Large Language Models in
-      Temporal Extraction Tasks
+      A Hybrid Unsupervised Learning Framework for Multi-Type Anomaly Detection in Database Query Logs
     authors:
-      - "Iqbal, F."
-      - "Dutt, R."
-      - "Das, S."
+      - "Verma, P."
       - "Verma, A."
-      - "Ray Choudhury, S."
-    status: "Findings of AACL-IJCNLP 2026. Accepted."
+    status: "Under Review IEEE IndiCon 2026"
     # Colours the dot on the pill: accepted / published (green), under_review
     # (amber), preprint (blue), in_progress (grey). Leave it out for a plain
     # grey pill with no dot.
-    stage: accepted
+    stage: under_review
 
   - title: >
-      Do Large Language Models Reason Causally, or Just Pattern Match?
-      A Multi-Strategy Evaluation
+      Multi-Dimensional Evaluatation of Large Language Models for Causal Reasoning Tasks
     authors:
       - "Verma, A."
       - "Iqbal, F."
+      - "Verma, P."
       - "Das, S"
       - "Ray Choudhury, S."
-    status: "Under review at A* conference"
+    status: "Under review at ACL-ARR 2026"
     stage: under_review

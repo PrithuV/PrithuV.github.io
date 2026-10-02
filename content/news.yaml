@@ -12,15 +12,12 @@ label: "Latest"
 interval: 3
 
 items:
-  - text: "Passed the CKAD exam — Certified Kubernetes Application Developer"
+  - text: "Submitted my paper on anomaly detection in database query logs to IEEE INDICON 2026"
     # Optional. Makes the line a link.
-    href: "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/155486a0-ede3-43a7-a73f-7ad3d556fb2d-arnav-verma-642a8c8e-a9a5-49ab-a8d7-9cc1086df300-certificate.pdf"
-
-  - text: "Paper accepted to Findings of AACL-IJCNLP 2026"
     href: "#research"
 
-  - text: "Started the M.S. in Computer Science at NYU Courant"
-    href: "#education"
+  - text: "Co-authored paper on LLM causal reasoning under review at ACL ARR 2026"
+    href: "#research"
 
-  - text: "Check Out Marigold - An App to help you study"
-    href: "#projects"
+  - text: "New project: analysing 12 million companies with PySpark on Databricks"
+    href: "/projects/databricks-company-analysis"

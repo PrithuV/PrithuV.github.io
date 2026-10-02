@@ -8,17 +8,17 @@ actions:
   - label: "View Resume"
     href: "/documents/resume.pdf"
 
-email: "av4445@nyu.edu"
-phone: "+1 (551) 359-3439"
+email: "prithuverma005@gmail.com"
+phone: "+91 70118 10871"
 
 # Every social below is optional. Delete a line — or leave it blank — and its
 # button disappears from the page. No placeholder is ever rendered.
 socials:
-  github: "https://github.com/namesarnav"
-  linkedin: "https://linkedin.com/in/namesarnav"
-  huggingface: "https://huggingface.co/namesarnav"
-  hashnode: "https://hashnode.dev/@namesarnav"
-  medium: "https://medium.com/@namesarnav"
+  github: "https://github.com/PrithuV"
+  linkedin: "https://www.linkedin.com/in/prithuverma/"
+  # huggingface: "https://huggingface.co/namesarnav"
+  # hashnode: "https://hashnode.dev/@namesarnav"
+  # medium: "https://medium.com/@namesarnav"
   # youtube: "https://youtube.com/@namesarnav"
   # google_scholar: "https://scholar.google.com/citations?user=SCkOVRYAAAAJ&hl=en"
   # open_review: "https://openreview.net/profile?id=%7EArnav_Verma1"
