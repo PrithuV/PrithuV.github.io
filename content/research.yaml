@@ -35,7 +35,7 @@ items:
     stage: under_review
 
   - title: >
-      Multi-Dimensional Evaluatation of Large Language Models for Causal Reasoning Tasks
+      Multi-Dimensional Generalization Evaluatation of Large Language Models for Causal Reasoning Tasks
     authors:
       - "Verma, A."
       - "Iqbal, F."
